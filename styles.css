@@ -1,3 +1,14 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
 body {
-    background-color: #484545;
-  }  
+    height: 100%;
+    background-color: #6f6d6d;
+    border: 15px solid rgb(30, 29, 29);
+    outline: 1px solid rgb(214, 10, 10);
+    outline-offset: -16px; /* move outline inside the border*/
+    box-sizing: border-box;
+  }
